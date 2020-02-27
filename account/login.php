@@ -8,7 +8,7 @@ $_SESSION["password"] = $_POST["password"];
 $username = $_SESSION["username"];
 $password = $_SESSION["password"];
 
-if ($username == "AlexGautier" && $password == "") {
+if ($username == "admin" && $password == "bonjour") {
     header("location:../");
 }
 else {
